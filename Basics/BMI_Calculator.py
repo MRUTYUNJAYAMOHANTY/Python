@@ -1,12 +1,11 @@
 # Example Input
 # weight = 80
 # height = 1.75
-# BMI = w/(m*m)
+# BMI = w / h ** 2
 
 # Example Output
 # 80 ÷ (1.75 x 1.75) = 26.122448979591837
 # 26
-
 
 
 # 🚨 Don't change the code below 👇
@@ -16,12 +15,6 @@ weight = input("enter your weight in kg: ")
 
 # Write your code below this line 👇
 
-
-
-
-
-
-
-
-
-
+bmi = float(weight) / float(height) ** 2
+bmi_whole_num = int(bmi)
+print(bmi_whole_num)

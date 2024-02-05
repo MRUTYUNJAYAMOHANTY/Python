@@ -1,2 +1,2 @@
 # Python
-Python basics from advanced. 
+Python basics to advanced. 
